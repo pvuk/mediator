@@ -15,7 +15,7 @@ package com.java.statickeyword.example;
 	
 	<ul>
 		<li>We can create static variables at class-level only. <a href="https://www.geeksforgeeks.org/g-fact-47/">See here</a></li>
-		<li>static block and static variables are executed in order they are present in a program.</li>
+		<li><b>static block and static variables are executed in order they are present in a program.</b></li>
 	</ul>
 	Below is the java program to demonstrate that static block and static variables are executed in order they are present in a program.
 </p>
