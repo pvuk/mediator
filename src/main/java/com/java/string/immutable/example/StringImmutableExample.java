@@ -8,6 +8,8 @@ import lombok.extern.slf4j.Slf4j;
  * 
  * <p>
  * 	<a href="https://www.javatpoint.com/immutable-string">Immutable String in Java</a>
+ * 	</br>
+ * <a href="https://stackoverflow.com/questions/8798403/string-is-immutable-what-exactly-is-the-meaning#answer-17942294">String is immutable. What exactly is the meaning? [duplicate]</a>	
  * </p>
  */
 @Slf4j
