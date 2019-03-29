@@ -1,0 +1,2 @@
+1. Learn different types of format a data using a class Formatter
+Reference: https://docs.oracle.com/javase/1.5.0/docs/api/java/util/Formatter.html#dls
