@@ -6,4 +6,5 @@ Reference: https://docs.oracle.com/javase/1.5.0/docs/api/java/util/Formatter.htm
 2.2 private String rewardPointsRedeemId;
 2.3 Read the variable name and differentiate with underscore when capital word is found. 
 	Final output: @Field(value="REWARD_POINTS_REDEEM_ID", order = 1)
-2.4 How to do: Swing Applet is better to work on this Task
+2.4 order count will be increased in ascending order
+2.5 How to do: Swing Applet is better to work on this Task
