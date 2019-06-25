@@ -5,7 +5,6 @@ package com.java.datastructures.bubblesort;
  * <a href="https://www.geeksforgeeks.org/java-program-for-bubble-sort/">Java Program for Bubble Sort</a>
  *
  */
-// Java program for implementation of Bubble Sort
 public class BubbleSort
 {
     void bubbleSort(int arr[])
