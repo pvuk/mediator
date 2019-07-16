@@ -17,7 +17,7 @@ import com.monitorjbl.xlsx.StreamingReader;
  * @author udaykiran p
  *
  */
-public class ReadExcelFile {
+public class ReadAndPrintExcelFile {
 	
 	public static void main(String[] args) {
 		try {
