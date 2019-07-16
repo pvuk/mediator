@@ -1,4 +1,4 @@
-package com.java.file.excel;
+package com.java.file.readandprint.excel;
 
 import java.io.FileInputStream;
 import java.util.HashMap;
