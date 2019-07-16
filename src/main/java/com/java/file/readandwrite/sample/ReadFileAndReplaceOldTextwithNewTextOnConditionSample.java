@@ -5,7 +5,7 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- * <p>Sample to file if ReadFileAndReplaceOldTextwithNewTextOnConditionTestSample.java file is replace with new data,
+ * <p>Sample file if ReadFileAndReplaceOldTextwithNewTextOnConditionTestSample.java file is replace with new data,
  * copy this class data and replace with ReadFileAndReplaceOldTextwithNewTextOnConditionSample.java file.</p>
  * 
  * @author udaykiran pulipati

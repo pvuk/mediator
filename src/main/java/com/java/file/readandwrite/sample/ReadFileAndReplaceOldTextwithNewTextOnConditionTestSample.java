@@ -24,11 +24,12 @@ public class ReadFileAndReplaceOldTextwithNewTextOnConditionTestSample {
 	private String assign_to;
 	public static void main(String[] args)
 	{
-		String path = "F:\\workspace\\EclipseOxygen\\JavaProject_v2\\src\\main\\java\\com\\java\\file\\readandwrite\\sample";
-		String fileName="ReadFileAndReplaceOldTextwithNewTextOnConditionTestSample.java";
-		File f=new File(path +"\\"+ fileName);
+		String projectPath = System.getProperty("user.dir");
+		String path = "/src/main/java/com/java/file/readandwrite/sample/";
+		String fileName ="ReadFileAndReplaceOldTextwithNewTextOnConditionTestSample.java";
+		File f = new File(projectPath +"\\"+ path +"\\"+ fileName);
 		String pathName = f.getAbsolutePath();
-		System.out.println(pathName);
+		System.out.println("FilePath: "+ pathName);
 		BufferedReader reader = null;
 		try {
 			reader = new BufferedReader(new FileReader(pathName));
@@ -40,7 +41,9 @@ public class ReadFileAndReplaceOldTextwithNewTextOnConditionTestSample {
 		{
 			try {
 				line = reader.readLine();
-				System.out.println(line);
+				if (line != null) {
+					System.out.println(line);					
+				}
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
